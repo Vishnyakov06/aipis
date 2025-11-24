@@ -1,5 +1,8 @@
 #include <iostream>
+#include <string>
 int main() {
-	std::count << "Hello, World!" << std::endl;
+	string name;
+	std::cin >> name;
+	std::count << "Hello, World from " << name;
 	return 0;
 }
